@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-element">
+    <header>
+        <div class="logo">myPortfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">dihadi</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <img src="profile.jpg" id="profile">
+        <h1>Hi, i am Abhinav Singh</h1>
+        <!-- <h3>A FrontEnd Developer</h3>  this line is overwrited by javascript in js file by span -->
+        <span id="element"></span>
+    <div class="">
+        <a href="abhinav resume.pdf" download="Abhinav's resume"><button class="resume">My Resume</button></a>
+        <a href="https://github.com/abhinav-siingh"><button class="github">My Github</button></a>
+    </div>
+        <p>I like to craft solid and scalable frontEnd products with great user expriences. I am a software engineer
+         specializing in building exeptional digital experiences.Expertise in HTML, CSS, and modern JavaScript frameworks like React. I love creating intuitive and responsive UIs.I believe in writing clean, maintainable code and following best practices to ensure my applications are efficient and scalable.I thrive on building robust applications that solve real-world problems and enhance user experiences.</p>
+         
+    </section>
+
+</div>  
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Abhinav Singh, a passionate software developer with experience in creating innovative solutions. I specialize in front-end and back-end development, and I'm always eager to learn new technologies and improve my skills.I am a under graduate with a Bachelor's degree in Computer Application, eager to start my career in software development. Throughout my academic journey, I have developed a strong foundation in programming, software design, and problem-solving. I am passionate about leveraging my skills to contribute to innovative projects and continuously learn and grow in the field of technology.When I'm not coding, I enjoy exploring new technologies. I also have a keen interest in AI and machine learning, constantly experimenting with new algorithms and models.</p>
+    </section>
+
+    <div class="flex"><section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            
+            <ul>
+                <li><h4>..  Game of Rock Paper and Scissors</h4></li>
+                <li><h4>..  Game of Automatic Color Generator</h4></li>
+                <li><h4>.. Calculator [fully functional and Responsive]</h4></li>
+                <li><h4>.. Clone of amazone</h4></li>
+                <li><h4>.. Image Gallary</h4></li>
+                <li><h4>.. Own Portfolio Website</h4></li>
+            </ul>
+
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><h5>HTML & CSS</h5></li>
+            <li><h5>JavaScript</h5></li>
+            <li><h5>tailWind CSS</h5></li>
+            <li><h5>React</h5></li>
+        </ul>
+    </section>
+</div>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via email at <a href="mailto:Abhinavsinghchandel8@gmail.com">abhinavsinghchandel8@gmail.com</a>.</p>
+    </section>
+    
+    <footer>
+        
+        <p>&copy; 2024 Abhinav Singh. All rights reserved.</p>
+        
+        
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['UI / UX Designer','Computer programmer', 'A FrontEnd Developer'],
+          typeSpeed: 70,  
+        });
+      </script>
+</body>
+</html>
